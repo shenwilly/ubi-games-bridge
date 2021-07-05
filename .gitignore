@@ -7,3 +7,5 @@ coverage*
 .env
 yarn.lock
 yarn-error.log
+.vscode
+.DS_Store
