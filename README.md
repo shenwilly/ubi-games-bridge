@@ -1,6 +1,6 @@
 # UBI Games Bridge
 
-One-way token bridge from Matic to Ethereum
+One-way token bridge from Matic to Ethereum. Contracts should be deployed using `CREATE2` on both Matic & Ethereum. Includes a burner contract on the Ethereum side.
 
 ## Available Functionality
 
