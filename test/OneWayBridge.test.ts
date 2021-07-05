@@ -1,8 +1,8 @@
 import { ethers } from "hardhat";
 import chai from "chai";
 import { OneWayBridge, OneWayBridge__factory, ChildERC20Mock__factory, ChildERC20Mock } from "../typechain";
-import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { parseUnits } from "ethers/lib/utils";
+import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/dist/src/signers";
 
 const { expect } = chai;
 const { expectRevert } = require("@openzeppelin/test-helpers");

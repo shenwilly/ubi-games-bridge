@@ -35,7 +35,7 @@
     "*.js": "eslint --cache --fix"
   },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
     "@nomiclabs/hardhat-etherscan": "^2.1.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@nomiclabs/hardhat-web3": "^2.0.0",
@@ -54,8 +54,9 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "ethereum-waffle": "^3.3.0",
-    "ethers": "^5.1.4",
+    "ethers": "^5.4.0",
     "hardhat": "^2.2.1",
+    "hardhat-deploy": "^0.8.9",
     "husky": "^6.0.0",
     "lint-staged": "11.0.0",
     "prettier": "^2.3.1",
